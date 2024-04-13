@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/python,django,intellij,pycharm
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,django,intellij,pycharm
 
@@ -17,6 +18,10 @@ media
 
 ### Django.Python Stack ###
 # Byte-compiled / optimized / DLL files
+=======
+# Byte-compiled / optimized / DLL files
+__pycache__/
+>>>>>>> 035b425f85166179e08ea71545b44a00e7d5eb65
 *.py[cod]
 *$py.class
 
@@ -70,8 +75,18 @@ cover/
 
 # Translations
 *.mo
+<<<<<<< HEAD
 
 # Django stuff:
+=======
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+>>>>>>> 035b425f85166179e08ea71545b44a00e7d5eb65
 
 # Flask stuff:
 instance/
@@ -170,6 +185,7 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+<<<<<<< HEAD
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -454,3 +470,5 @@ pyrightconfig.json
 .idea
 
 # End of https://www.toptal.com/developers/gitignore/api/python,django,intellij,pycharm
+=======
+>>>>>>> 035b425f85166179e08ea71545b44a00e7d5eb65
