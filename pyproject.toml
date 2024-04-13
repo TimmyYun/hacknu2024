@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hacknu"
+version = "0.1.0"
+description = ""
+authors = ["kumashev <adil.kumashev.02@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+python-dotenv = "^1.0.1"
+pre-commit = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
