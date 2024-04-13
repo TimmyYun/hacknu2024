@@ -1,5 +1,7 @@
 #!/bin/bash
 
+poetry run python hacknu/manage.py makemigrations core
+poetry run python hacknu/manage.py migrate core
 poetry run python hacknu/manage.py makemigrations
 poetry run python hacknu/manage.py migrate
 
