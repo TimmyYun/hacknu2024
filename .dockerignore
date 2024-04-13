@@ -1,0 +1,9 @@
+venv
+Dockerfile
+.dockerignore
+LICENSE
+.git
+.pre-commit-config.yaml
+.gitignore
+.env.example
+.idea

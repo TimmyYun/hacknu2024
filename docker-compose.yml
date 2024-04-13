@@ -1,0 +1,28 @@
+services:
+
+  backend:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    container_name: backend
+    env_file:
+      - ./.env
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - "0.0.0.0:8000:8000"
+    networks:
+      - inner
+
+  db:
+    image: postgres
+    container_name: db
+    restart: always
+    env_file:
+      - ./.env
+    networks:
+      - inner
+
+networks:
+  inner:
